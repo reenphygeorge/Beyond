@@ -1,0 +1,75 @@
+.intro{
+    margin-top: 50px;
+    /* background-image: url(/assets/BG-home-new4.png);
+    background-position:100%; */
+    height: 100vh;
+}
+
+.intro-img img{
+    border-radius: 5rem 5rem 15rem 5rem;
+}
+
+.intro-text h3{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.intro-text h2{
+    color: #4632da;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.intro-text p{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.more-btn{
+    margin-top: 20px;
+    color: #ffff !important;
+    border-radius: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-bottom: 10px !important;
+    padding-top: 7px !important;
+    background-color: #08ccd3 !important;
+}
+
+.more-btn:hover{
+    background-color: #4632da !important;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .intro{
+        height: 100vh;
+    }
+
+    .intro-text{
+        margin-bottom: 30px;
+    }
+
+    .intro-text h2,h3,p{
+        text-align: center;
+    }
+    
+    .intro-text h3{
+        font-size: 15px;
+    }
+
+    .btn-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-img img{
+        width: 350px;
+    }
+}

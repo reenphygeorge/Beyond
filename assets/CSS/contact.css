@@ -1,0 +1,70 @@
+.bk-blue-contact{
+    
+    background-image: linear-gradient(-90deg,rgb(95, 233, 238),rgb(38, 76, 182));
+    background-position:top;
+    height: 70vh;
+}
+.contact{
+    margin-top: 150px;
+    padding-top: 100px;
+    height: 20vh;
+}
+
+.contact-text h2{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 35px;
+    color: #ffff;
+}
+
+.contact-text h3{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+
+.contact-btn{
+    margin-top: 20px;
+    color: #ffff !important;
+    border-radius: 20px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-bottom: 10px !important;
+    padding-top: 7px !important;
+    background-color: #00dafc !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-btn:hover{
+    background-color: rgb(85, 13, 255) !important;
+}
+
+.contact-img img{
+    border-radius: 15rem 3rem 3rem 3rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .bk-blue-contact{
+        height: 100vh;
+    }
+
+    .contact-img img{
+        width: 300px;
+    }
+
+    .contact-text h2, h3{
+        text-align: center;
+    }
+
+    .contact-img{
+        margin-top: 40px !important;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .contact-img img{
+        width: 230px;
+    }
+}

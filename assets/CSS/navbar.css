@@ -1,0 +1,57 @@
+.nav-bk-blue{
+    background-image: linear-gradient(-90deg,rgb(100, 235, 240),rgb(43, 84, 197));
+    width: 100vw;
+    position: fixed;
+    top: 0%;
+}
+
+.nav-logo{
+    margin-top: 20px;
+}
+
+.nav-item{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.nav-item a{
+    color: #fff !important;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item a:hover{
+    color: gainsboro !important;
+}
+
+.nav-bottom-hr{
+    border:thin blue;
+}
+
+@media only screen and (max-width: 1200px) {
+    .nav-item{
+        margin-left: 30px;
+    }
+    .nav-item a{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav{
+        margin-left: 250px;
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-toggler{
+        margin-top: 20px !important;
+    }
+
+    .nav-link{
+        margin-left: 30px;
+    }
+}
