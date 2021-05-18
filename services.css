@@ -56,16 +56,47 @@
 
 @media only screen and (max-width: 767px) {
 
-    .intro-text{
+    .services-text{
         margin-bottom: 30px;
     }
 
     .services-text h2,h3,p{
         text-align: center;
     }
-    
+
+    .services-text h3{
+        font-size: 12px;
+    }
+
     .services-text h2{
-        font-size: 33px;
+        font-size: 20px;
+    }
+
+    .services-card h4{
+        font-size: 15px;
+    }
+
+    .services-card p{
+        font-size: 10px;
+    }
+
+    .services-card a{
+        font-size: 10px;
+    }
+
+    .services-card img{
+        width: 30px !important;
+    }
+
+    .detail-card{
+        height: auto;
+        width: 20rem !important;
+        margin-right: 0%;
+    }
+
+    .services-card{
+        display: flex;
+        justify-content: center;
     }
 }
 

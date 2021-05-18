@@ -48,15 +48,11 @@
     }
 
     .intro-text{
-        margin-bottom: 30px;
+        margin-top: 50px !important;
     }
 
     .intro-text h2,h3,p{
         text-align: center;
-    }
-    
-    .intro-text h3{
-        font-size: 15px;
     }
 
     .btn-div{
@@ -67,9 +63,34 @@
     .intro-img{
         display: flex;
         justify-content: center;
+        margin-top: 70px !important;
     }
 
     .intro-img img{
         width: 350px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .intro-text h3{
+        font-size: 12px;
+    }
+
+    .intro-text h2{
+        font-size: 20px;
+    }
+    .intro-text p{
+        font-size: 10px;
+    }
+    .intro-img img{
+        width: 250px;
+        height: 200px;
+    }
+    .more-btn{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 12px !important;
     }
 }

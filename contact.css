@@ -68,3 +68,24 @@
         width: 230px;
     }
 }
+
+@media only screen and (max-width: 767px) {
+    
+    .bk-blue-contact{
+        height: 70vh;
+    }
+
+    .contact-text h3{
+        font-size: 10px;
+    }
+
+    .contact-text h2{
+        font-size: 15px;
+    }
+
+    .contact-btn{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 12px !important;
+    }
+}

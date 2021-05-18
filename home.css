@@ -54,19 +54,15 @@
 
 @media only screen and (max-width: 991px) {
     .bk-blue{
-        height: 120vh;
+        height: 100vh;
     }
 
     .home-text{
-        margin-bottom: 30px;
+        margin-top: 50px !important;
     }
 
     .home-text h1,h3,p{
         text-align: center;
-    }
-
-    .home-text h3{
-        font-size: 15px;
     }
 
     .btn-div{
@@ -77,9 +73,39 @@
     .home-img{
         display: flex;
         justify-content: center;
+        margin-top: 30px !important;
     }
 
     .home-img img{
         width: 350px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .bk-blue{
+        height: 70vh;
+    }
+
+    .home-text h3{
+        font-size: 12px;
+    }
+
+    .home-text h1{
+        font-size: 20px;
+    }
+
+    .home-text p{
+        font-size: 10px;
+    }
+
+    .home-img img{
+        width: 250px;
+    }
+
+    .about-btn{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 12px !important;
     }
 }

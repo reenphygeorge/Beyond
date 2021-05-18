@@ -15,10 +15,20 @@
 
 @media only screen and (max-width: 991px) {
     .clients{
-        margin-top: 420px;
+        margin-top: 50px;
     }
     .client-logo{
         display: flex;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .intro-text h3{
+        font-size: 12px;
+    }
+
+    .intro-text h2{
+        font-size: 20px;
     }
 }

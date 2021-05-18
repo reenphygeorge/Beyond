@@ -1,5 +1,5 @@
 .team{
-    margin-top: 200px !important;
+    margin-top: 100px !important;
     height: 100vh;
 }
 
@@ -26,6 +26,7 @@
 
 .team-btn{
     margin-top: 20px;
+    margin-bottom: 50px;
     color: #ffff !important;
     border-radius: 20px !important;
     padding-left: 40px !important;
@@ -51,5 +52,27 @@
         display: flex;
         justify-content: center;
         margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .team-card{
+        width: 15rem !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .team-text h2{
+        font-size: 20px !important;
+    }
+
+    .team-text h3{
+        font-size: 12px !important;
+    }
+
+    .team-btn{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 12px !important;
     }
 }
